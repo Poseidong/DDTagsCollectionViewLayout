@@ -23,17 +23,17 @@
 @interface DDTagsCollecionViewLayout : UICollectionViewLayout
 @property(nonatomic, weak)id<DDTagsCollecionViewLayoutDelegate> delegate;
 
-//item的size default = CGSizeMake(30, 30)
+//item的size default is CGSizeMake(30, 30)
 @property(nonatomic, assign)CGSize itemSize;
-//item间距 default = 10
+//item间距 default is 10
 @property(nonatomic, assign)CGFloat itemSpace;
-//行间距 default = 10
+//行间距 default is 10
 @property(nonatomic, assign)CGFloat lineSpace;
-//header高度 default = 0
+//header高度 default is 0
 @property(nonatomic, assign)CGFloat headerHeight;
-//footer高度 default = 0
+//footer高度 default is 0
 @property(nonatomic, assign)CGFloat footerHeight;
-//item最大显示宽度 default = kMaxShowWidth
+//item最大显示宽度 default is kMaxShowWidth
 @property(nonatomic, assign)CGFloat itemMaxWidth;
 
 @end
