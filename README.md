@@ -6,6 +6,5 @@
 测试
 ceshi 
 
-test1
 
 ![image](https://github.com/Poseidong/DDTagsCollectionViewLayout/blob/master/demo.png)
